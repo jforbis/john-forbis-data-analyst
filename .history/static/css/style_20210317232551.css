@@ -10,7 +10,7 @@ background: #9f9b9b;
 }
 
 #career-img {
-    width: 30px;
+    width: 20px;
 }
 .dropdown {
 position: relative;
@@ -185,9 +185,10 @@ margin-top: 50px;
 /* The styles for the parallax */
 .hero {
 position: relative;
-height: 750px;
+height: 550px;
 padding: 10px;
 margin: 0;
+background: black;
 background-image: url("../../resources/images/IMG_1779.jpg");
 background-attachment: fixed;
 background-position: bottom center;
