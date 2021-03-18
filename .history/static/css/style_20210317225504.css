@@ -9,6 +9,10 @@ color: rgb(255, 255, 255);
 background: #9f9b9b;
 }
 
+#text {
+    font-family: Verdana;
+}
+
 .dropdown {
 position: relative;
 display: inline-block;
@@ -136,8 +140,6 @@ color: white;
 #tagline {
     position: absolute;
     left: 60px;
-    font-family: verdana;
-    color: #9f9b9b;
 }
 
 /* Adding styles to the aside and filter form */

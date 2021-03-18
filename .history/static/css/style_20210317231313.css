@@ -9,6 +9,12 @@ color: rgb(255, 255, 255);
 background: #9f9b9b;
 }
 
+#word {
+    font-family: Verdana;
+    font-size: 10px;
+    color: #9f9b9b;
+}
+
 .dropdown {
 position: relative;
 display: inline-block;
@@ -137,7 +143,6 @@ color: white;
     position: absolute;
     left: 60px;
     font-family: verdana;
-    color: #9f9b9b;
 }
 
 /* Adding styles to the aside and filter form */

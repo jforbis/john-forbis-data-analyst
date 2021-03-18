@@ -136,8 +136,6 @@ color: white;
 #tagline {
     position: absolute;
     left: 60px;
-    font-family: verdana;
-    color: #9f9b9b;
 }
 
 /* Adding styles to the aside and filter form */
@@ -183,10 +181,10 @@ margin-top: 50px;
 .hero {
 position: relative;
 height: 550px;
-padding: 10px;
+padding: 20px;
 margin: 0;
 background: black;
-background-image: url("../../resources/images/IMG_1779.jpg");
+background-image: url("../../resourcesimages/IMG_1779.jpg");
 background-attachment: fixed;
 background-position: bottom center;
 background-size: cover;

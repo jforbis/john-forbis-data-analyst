@@ -9,6 +9,11 @@ color: rgb(255, 255, 255);
 background: #9f9b9b;
 }
 
+#word {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
 .dropdown {
 position: relative;
 display: inline-block;
@@ -79,6 +84,10 @@ position: sticky;
 top: 0;
 }
 
+.navbar-brand {
+    font-display:block;
+}
+
 * {
 box-sizing: border-box;
 font-family: Ubuntu, sans-serif;
@@ -137,7 +146,6 @@ color: white;
     position: absolute;
     left: 60px;
     font-family: verdana;
-    color: #9f9b9b;
 }
 
 /* Adding styles to the aside and filter form */
