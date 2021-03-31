@@ -32,7 +32,7 @@ display: block;
 }
 
 h1 {
-padding: 25px;
+padding: 15px;
 margin: 10px;
 color: white
 }
@@ -57,13 +57,22 @@ border-color: #9f9b9b;
 vertical-align: text-top
 }
 
+.card-body {
+    margin-top: 100px;
+}
+
+#whoiam {
+    text-align: center;
+    color: #70A6E4;
+    font-size: 16px
+}
 .second_card {
 margin-top: -140px;
 margin-left: 40px
 }
 
 .card-img-top {
-width: 90%;
+width: 50%;
 height: auto;
 }
 
@@ -135,6 +144,16 @@ left: 10px;
 width: 35px;
 color: white;
 }
+
+/* This CSS styles the photo in the 'Who I Am' card' */
+.headshot-md {
+    position: absolute;
+    width: 20%;
+    left: 20px;
+    top: 20px;
+    color: black;
+    margin-bottom: 20px
+    }
 
 #tagline {
     position: absolute;
