@@ -9,28 +9,6 @@ color: rgb(255, 255, 255);
 background: #9f9b9b;
 }
 
-.container {
-    width: 2000px;
-}
-
-.row {
-    width: 1125px;
-}
-
-.vert1 {
-    border-left: thick solid #ffffff;
-}
-
-#me {
-    font-size: 28px;
-    text-align: left;
-}
-
-#pr {
-    font-size: 28px;
-    text-align: center;
-}
-
 #career-img {
     width: 30px;
 }
@@ -66,7 +44,7 @@ font-size: 16px
 }
 
 hr {
-height: 12px;
+height: 2px;
 background-color: white
 }
 

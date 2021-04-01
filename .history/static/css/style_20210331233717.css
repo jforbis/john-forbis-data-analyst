@@ -12,18 +12,13 @@ background: #9f9b9b;
 .container {
     width: 2000px;
 }
-
-.row {
-    width: 1125px;
-}
-
 .vert1 {
     border-left: thick solid #ffffff;
 }
 
 #me {
     font-size: 28px;
-    text-align: left;
+    text-align: center;
 }
 
 #pr {

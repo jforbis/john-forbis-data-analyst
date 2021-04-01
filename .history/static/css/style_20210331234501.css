@@ -17,6 +17,10 @@ background: #9f9b9b;
     width: 1125px;
 }
 
+.col {
+    width: 600px;
+}
+
 .vert1 {
     border-left: thick solid #ffffff;
 }

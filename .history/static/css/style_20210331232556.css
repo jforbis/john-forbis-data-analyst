@@ -9,18 +9,6 @@ color: rgb(255, 255, 255);
 background: #9f9b9b;
 }
 
-.container {
-    width: 2000px;
-}
-
-.row {
-    width: 1125px;
-}
-
-.vert1 {
-    border-left: thick solid #ffffff;
-}
-
 #me {
     font-size: 28px;
     text-align: left;
@@ -28,7 +16,7 @@ background: #9f9b9b;
 
 #pr {
     font-size: 28px;
-    text-align: center;
+    text-align: calc(center+10px);
 }
 
 #career-img {
