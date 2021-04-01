@@ -63,7 +63,6 @@ vertical-align: text-top
 
 .career-card-body {
     margin-top: 10px;
-    padding: 20px;
 }
 
 .career-card {
@@ -71,7 +70,6 @@ vertical-align: text-top
     font-size: 14px;
     background-color: white;
     margin-top: top;
-    margin-right: 20px;
     border-color: #9f9b9b;
     vertical-align: text-top;
     position: relative;
@@ -100,17 +98,7 @@ height: auto;
 }
 
 .card-title {
-font-size: 18px;
-}
-
-.career-text {
-    text-align: center;
-    font-size: 18px;
-    font-style: italic;
-}
-
-h5.career-title {
-    text-align: center;
+font-size: 18px
 }
 
 .top_row {
@@ -192,10 +180,9 @@ color: white;
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
     max-width: 80%;
-    max-height: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
+    margin-top: 50px
     /* position: relative;
     background-color: #FFFFFF;
     color: black;

@@ -103,13 +103,7 @@ height: auto;
 font-size: 18px;
 }
 
-.career-text {
-    text-align: center;
-    font-size: 18px;
-    font-style: italic;
-}
-
-h5.career-title {
+.career-title {
     text-align: center;
 }
 

@@ -61,29 +61,6 @@ vertical-align: text-top
     margin-top: 100px;
 }
 
-.career-card-body {
-    margin-top: 10px;
-    padding: 20px;
-}
-
-.career-card {
-    color: #9f9b9b;
-    font-size: 14px;
-    background-color: white;
-    margin-top: top;
-    margin-right: 20px;
-    border-color: #9f9b9b;
-    vertical-align: text-top;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
-    }
-
 #whoiam {
     text-align: center;
     color: #70A6E4;
@@ -100,17 +77,7 @@ height: auto;
 }
 
 .card-title {
-font-size: 18px;
-}
-
-.career-text {
-    text-align: center;
-    font-size: 18px;
-    font-style: italic;
-}
-
-h5.career-title {
-    text-align: center;
+font-size: 18px
 }
 
 .top_row {
@@ -192,10 +159,7 @@ color: white;
     border-top-left-radius: calc(.25rem - 1px);
     border-top-right-radius: calc(.25rem - 1px);
     max-width: 80%;
-    max-height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
+    align-items: middle;
     /* position: relative;
     background-color: #FFFFFF;
     color: black;
@@ -300,7 +264,7 @@ animation-delay: 1.2s;
 } */
 
 /* media queries which will only be activated at specific screen sizes */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
 #table-area td {
     font-size: 1em;
 }
@@ -309,9 +273,9 @@ animation-delay: 1.2s;
 @media (max-width: 500px) {
 #table-area thead {
     display: none;
-}
+} */
 
-#table-area tr td:first-child {
+/* #table-area tr td:first-child {
     font-size: 1.8em;
     font-weight: bold;
     background: #1b3146;
@@ -319,33 +283,33 @@ animation-delay: 1.2s;
 
 #table-area tr td:last-child {
     margin-bottom: 20px;
-}
+} */
 
-#table-area tr td:last-child::after {
+/* #table-area tr td:last-child::after {
     display: block;
     width: 100%;
     height: 1px;
     margin-top: 20px;
     content: " ";
     background: aliceblue;
-}
+} */
 
-#table-area td {
-    font-size: 1.25em;
-}
+/* #table-area td {
+    font-size: 1.25em; */
+/* } */
 
-#table-area tbody td {
+/* #table-area tbody td {
     display: block;
     text-align: center;
-}
+} */
 
-#table-area tbody td::before {
+/* #table-area tbody td::before {
     display: block;
     font-size: 1.4em;
     font-weight: bold;
     text-align: center;
     content: attr(data-th);
-}
+} */
 
 .hero h1 {
     animation: smaller-title 1.2s forwards linear;
@@ -353,7 +317,7 @@ animation-delay: 1.2s;
 }
 
 /* keyframe animations which will be used to animate the title */
-@keyframes title {
+/* @keyframes title {
 from {
     opacity: 0;
 }
@@ -362,9 +326,9 @@ to {
     font-size: 7.5rem;
     opacity: 1;
 }
-}
+} */
 
-@keyframes smaller-title {
+/* @keyframes smaller-title {
 from {
     opacity: 0;
 }
@@ -373,9 +337,9 @@ to {
     font-size: 5.5rem;
     opacity: 1;
 }
-}
+} */
 
-@keyframes subtitle {
+/* @keyframes subtitle {
 from {
     opacity: 0;
 }
@@ -383,4 +347,4 @@ from {
 to {
     opacity: 1;
 }
-}
+} */
