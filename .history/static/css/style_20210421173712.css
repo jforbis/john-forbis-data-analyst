@@ -92,26 +92,7 @@ vertical-align: text-top
     color: #9f9b9b;
     font-size: 14px;
     background-color: white;
-    margin-top: top;
-    margin-right: 20px;
-    border-color: #9f9b9b;
-    vertical-align: text-top;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
-    height: 290px;
-}
-
-.career-card2 {
-    color: #9f9b9b;
-    font-size: 14px;
-    background-color: white;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 20px;
     border-color: #9f9b9b;
     vertical-align: text-top;
