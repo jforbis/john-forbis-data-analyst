@@ -35,6 +35,10 @@ background: #9f9b9b;
     width: 30px;
 }
 
+.ambtn {
+    padding: 10px;
+}
+
 .dropdown {
 position: relative;
 display: inline-block;
