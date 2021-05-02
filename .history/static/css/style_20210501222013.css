@@ -351,7 +351,7 @@ animation-delay: 1.2s;
 } */
 
 /* media queries which will only be activated at specific screen sizes */
-/* @media (max-width: 800px) {
+@media (max-width: 800px) {
 #table-area td {
     font-size: 1em;
 }
@@ -360,7 +360,7 @@ animation-delay: 1.2s;
 @media (max-width: 500px) {
 #table-area thead {
     display: none;
-} */
+}
 
 #table-area tr td:first-child {
     font-size: 1.8em;
@@ -400,6 +400,7 @@ animation-delay: 1.2s;
 
 .hero h1 {
     animation: smaller-title 1.2s forwards linear;
+}
 }
 
 /* keyframe animations which will be used to animate the title */
