@@ -90,9 +90,7 @@ vertical-align: text-top
 .career-card-body {
     margin-top: 10px;
     padding: 20px;
-    position: absolute;
-    bottom: 0;
-    align-items: center;
+    vertical-align: bottom;
 }
 
 .career-card {
@@ -121,7 +119,7 @@ vertical-align: text-top
     margin-top: 20px;
     margin-right: 20px;
     border-color: #9f9b9b;
-    vertical-align: text-top;
+    /* vertical-align: text-top; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -343,7 +341,7 @@ animation-delay: 1.2s;
 /* .form-control:-ms-input-placeholder { */
 /* IE 10+ */
 /* color: #8e979f; */
-
+}
 
 /* .form-control:-moz-placeholder { */
 /* Firefox 18- */

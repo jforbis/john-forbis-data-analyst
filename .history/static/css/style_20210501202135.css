@@ -343,7 +343,7 @@ animation-delay: 1.2s;
 /* .form-control:-ms-input-placeholder { */
 /* IE 10+ */
 /* color: #8e979f; */
-
+/* } */
 
 /* .form-control:-moz-placeholder { */
 /* Firefox 18- */
@@ -351,11 +351,11 @@ animation-delay: 1.2s;
 } */
 
 /* media queries which will only be activated at specific screen sizes */
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
 #table-area td {
     font-size: 1em;
-}
-}
+    }
+} */
 
 @media (max-width: 500px) {
 #table-area thead {
