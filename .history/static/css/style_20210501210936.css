@@ -310,8 +310,7 @@ position: relative;
 height: 750px;
 padding: 10px;
 margin: 0;
-background-image: url("/static/resources/images/IMG_3847.jpg");
-
+background-image: url("..resources/images/cr.png");
 background-attachment: fixed;
 background-position: bottom center;
 background-size: cover;
