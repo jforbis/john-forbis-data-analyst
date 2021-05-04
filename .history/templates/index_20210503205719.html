@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title class="text">John Forbis, CPRP</title>
+<!--Bootstrap style sheet-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--link to style sheet-->
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+
+</head>
+
+<!--Top Nav Bar-->
+<nav class="navbar-expand-lg navbar-light bg-light nav-color navbar nav">
+    <a class="navbar-brand" href="#me">
+        <img class="headshot-sm" src="{{ url_for('static',filename='resources/images/headshot.jpg') }}">
+    </a>
+    <a class="navbar-brand" id="tagline" href="#"> <i>"Do what's right, do your best, and have fun!"</i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <div class="nav navbar-nav navbar-right">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" target= blank href="{{ url_for('static',filename='resources/jfresume.pdf') }}">Resume</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('static', filename='/templates/under_construction.html') }}">Projects </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">More Info</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a target="blank" class="dropdown-item" href="https://www.linkedin.com/in/john-forbis-cprp-96921513/">LinkedIn</a>
+                        <a target="blank" class="dropdown-item" href="https://github.com/jforbis">GitHub</a>
+                        <!-- <a target="blank" class="dropdown-item" href="#">Accolades</a> -->
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="wrapper">
+    <!-- <nav class="navbar navbar-default">
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <!-- <a class="navbar-brand" href="index.html">UFO Sightings
+            <img class="nav-ufo" src="resources/images/headshot.jpg">
+            </a> -->
+        <!-- </div>
+        </div>
+    </nav> -->
+    <div class="hero text-center">
+        <h1 class="text"><b>JOHN FORBIS, CPRP</b></h1>
+        <p><a class="btn btn-outline-light btn-lg btn-block" href="#me" role="button" style="margin-top: 40px; width: 600px; margin-left: auto; margin-right: auto;"><b>ABOUT ME</b></a></p>
+    </div>
+
+<body>
+    <div class="col-12" style="margin-top: 20px">
+        <div class="row">
+            <div class="col-md-6" id="me">
+                <strong><i>John Forbis, CPRP</i></strong>
+            </div>
+            <div class="col-md-6" id="pr">
+                <strong>Professional Roles</strong>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <table>
+        <tr>
+            <td style="vertical-align:top;">
+                <div class="card" style="width: 40rem; margin-top: 20px">
+                    <div><img src="{{ url_for('static',filename='resources/images/headshot.jpg') }}" class="headshot-md" alt="John Forbis"</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Who I Am:</b></h5>
+                        <p class="card-text">
+                        <div id="whoiam"><i><b>Data analyst with a passion for innovation, data analysis and keeping it fun!</b></i></div>
+                        <br>
+                        With a background in public service, facility management, and leadership of 
+                        muli-level teams as well as extensive training in both leadership and data analytics 
+                        through the Leadership Intensive program by The Changing Point and the University 
+                        of Kansas Data Analytics boot camp respectively, I would make a great addition 
+                        to any team. Acquired skills in: advanced Excel, Tableau, PowerBI, Python, Pandas, API calls, 
+                        SQL, Java Script, flask app, and Machine Learning. 
+                        <br><br>
+                        I enjoy a good problem needing solved 
+                        and love to utilize data to tell the story. I am a proven innovator in my 
+                        career with a ‘can-do’ mindset; always searching for new and better solutions.
+                        </p>
+                    <a target=blank href="https://www.linkedin.com/in/john-forbis-cprp-96921513/" class="btn btn-primary">Connect with me!</a>
+                    </div>
+                </div>
+            </td>
+            <td style="vertical-align:bottom">
+                <div class="second_card" style="width: 40rem;">
+                        <div class="card-body">
+                            <table style="margin-top: 39px">
+                                <tr>
+                                <td> 
+                                    <div class="career-card" style="width: 18rem;">
+                                        <img class="card-img-career" src="{{ url_for('static',filename='resources/images/cp.png') }}" alt="CivicPlus">
+                                        <div class="career-card-body">
+                                        <h5 class="career-title">CivicPlus</h5>
+                                        <p class="career-text">Implementation Consultant</p>
+                                        <a target=new href="https://www.civicplus.com/" class="btn btn-primary" id="career-btn">Learn about CivicPlus</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                    <td>
+                                        <div class="career-card" style="width: 18rem;">
+                                            <img class="card-img-career" src="{{ url_for('static',filename='resources/images/Lenexa.jpg') }}" alt="City of Lenexa">
+                                            <div class="career-card-body">
+                                            <h5 class="career-title">City of Lenexa</h5>
+                                            <p class="career-text">Rec Center Manager</p>
+                                            <a target=new href="https://www.lenexa.com/government/departments___divisions/recreation_center" class="btn btn-primary" id="career-btn">Learn about LRC</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="career-card2" style="width: 18rem;">
+                                            <img class="card-img-career" src="{{ url_for('static',filename='resources/images/mfclogo.jpeg') }}" alt="Mercy Fitness Center">
+                                            <div class="career-card-body">
+                                            <h5 class="career-title">Mercy Fitness Center</h5>
+                                            <p class="career-text">Member Services Supervisor</p>
+                                            <a target=new href="https://www.mercyfitness.net/" class="btn btn-primary" id="career-btn">Learn about MFC</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="career-card2" style="width: 18rem; vertical-align: bottom""> 
+                                            <img class="card-img-career" src="{{ url_for('static',filename='resources/images/hvillelogo.png') }}" alt="City of Harrisonville">
+                                            <div class="career-card-body">
+                                            <h5 class="career-title">City of Harrisonville</h5>
+                                            <p class="career-text">Recreation Services Manager</p>
+                                            <a target=new href="https://ci.harrisonville.mo.us/25/Parks-Recreation" class="btn btn-primary" id="career-btn">Learn about Harrisonville</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        </br>
+                                        </br>
+                                        </br>
+                                        </br>
+                                        </br>
+                                        </br>
+                                        </br>
+                                        </br>
+                                        </br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="{{ url_for('static',filename='js/logic.js') }}"></script>

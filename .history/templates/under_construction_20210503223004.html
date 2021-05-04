@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title class="text">J. Forbis - Data Projects</title>
+<!--Bootstrap style sheet-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--link to style sheet-->
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+
+</head>
+
+<!--Top Nav Bar-->
+<nav class="navbar-expand-lg navbar-light bg-secondary nav-color navbar nav">
+    <a class="navbar-brand" href="/#me">
+        <img class="headshot-sm" src="{{ url_for('static',filename='resources/images/headshot.jpg') }}">
+    </a>
+    <a class="navbar-brand" id="tagline" href="/"> <i>"Do what's right, do your best, and have fun!"</i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <div class="nav navbar-nav navbar-right">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" target= blank href="{{ url_for('static',filename='resources/jfresume.pdf') }}">Resume</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="/projects">Projects </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">More Info</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a target="blank" class="dropdown-item" href="https://www.linkedin.com/in/john-forbis-cprp-96921513/">LinkedIn</a>
+                        <a target="blank" class="dropdown-item" href="https://github.com/jforbis">GitHub</a>
+                        <!-- <a target="blank" class="dropdown-item" href="#">Accolades</a> -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body>
+
+<!-- Begin page content -->
+<div class="container-fluid" id="uc-body">
+    <div class="row-fluid">
+    <div class="col-lg-auto">
+        <image id="uc-img" src="{{ url_for('static',filename='resources/images/uc_background.png') }}"></image>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-auto justify-content-center">
+        <button type="button" class="btn btn-outline-warning" href="https://github.com/jforbis">This page is still under construction <br> For quick access please visit my GitHub by clicking here</button>
+    </div>
+    </div>
+</div>
+
+<footer class="footer mt-auto py-3 bg-secondary" style="position: bottom sticky;">
+    <div style="text-align: right; width: 1440px; padding-right: 20px;">
+        <span style="text-align: center; width: 1440px; color: white">Designed by: 
+            <a target=new style="color: white" href="https://www.linkedin.com/in/john-forbis-cprp-96921513/"><u>J. Forbis LinkedIn</u>     </a>|     Updated: May 2021
+        </span>
+    </div>
+</footer>
+
+</body>
+</html>
