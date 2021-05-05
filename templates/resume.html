@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- <meta charset="UTF-8"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title class="text">John Forbis, CPRP</title>
+<!--Bootstrap style sheet-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--link to style sheet-->
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+
+</head>
+
+<!--Top Nav Bar-->
+<nav class="navbar-expand-lg navbar-light bg-secondary nav-color navbar nav">
+    <a class="navbar-brand" href="/#me">
+        <img class="headshot-sm" src="{{ url_for('static',filename='resources/images/headshot.jpg') }}">
+    </a>
+    <a class="navbar-brand" id="tagline" href="/"> <i>"Do what's right, do your best, and have fun!"</i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <div class="nav navbar-nav navbar-right" style="margin-right: 30px;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" target= blank href="{{ url_for('static',filename='resources/jfresume.pdf') }}">Resume</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="/projects">Projects </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">More Info</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a target="blank" class="dropdown-item" href="https://www.linkedin.com/in/john-forbis-cprp-96921513/">LinkedIn</a>
+                        <a target="blank" class="dropdown-item" href="https://github.com/jforbis">GitHub</a>
+                        <!-- <a target="blank" class="dropdown-item" href="#">Accolades</a> -->
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <table class="table">
+        <thead>
+            <tr class="bg-primary">
+                <th scope="col" colspan="4">PERSONAL BRAND STATEMENT</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col">
+                    <a target="new" type="button" class="btn btn-outline-light btn-lg" style="font-size: 10px;" href="{{ url_for('static',filename='resources/jfresume.pdf') }}">DOWNLOAD</a>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>   
+                <td colspan="3"><i>Data analyst with a passion for innovation, data analysis and keeping it fun!</i><br><br>
+                    With a background in public service, facility management, and leadership of multi-level teams as well as extensive training in both leadership and data analytics through the Leadership Intensive program by The Changing Point and the University of Kansas Data Analytics boot camp respectively, I would make a great addition to any team. Acquired skills in: advanced Excel, Tableau, PowerBI, Python, Pandas, API calls, SQL, Java Script, flask app, and Machine Learning.
+                    I enjoy a good problem needing solved and love to utilize data to tell the story. I am a proven innovator in my career with a ‘can-do’ mindset; always searching for new and better solutions
+                </td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <tr class="bg-primary">
+                <th scope="col" colspan="4">EXPERIENCE</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>   
+                <td colspan="3"><b>CivicPlus:  September 2020 – PRESENT</b><br>
+                    <ul><i>Project Manager / Implementation Consultant:  April 2016 – Present</i><br>
+                    <ul>Responsible for the successful and timely implementation of the CivicPlus software, CivicRec, for municipal governments across the U.S.</ul>
+                    <b>Software Implementation with Parks & Recreation Consultation</b>
+                    <ul>
+                        <li>With a dedicated focus on client success, I bring over 15 years of experience in the Parks & Recreation, public sector to: establish rapport and positive relationships, the ability to understand the clients’ needs, and tactfully address challenges and concerns, all while maximizing the client's productivity and satisfaction.</li>
+                        <li>In my role as an Implementation Consultant, I focus on the CivicRec tool that is just one of many aspects of the CivicPlus' suite of products. CivicRec provides a comprehensive solution for effective civic management of patrons of Parks and Recreation Departments. I help coach and implement tailored technology with deep local government expertise in a powerful way. Helping deliver thoughtful solutions that improve the dynamics between people, process and structure. I work closely with Parks and Recreation Departments in so that they can work closer with the people who count on them.</li></ul>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td></td>   
+                <td colspan="3"><b>City of Lenexa Parks & Recreation:  April 2016 – September 2020</b><br>
+                    <ul><i>Rec Center Manager:  April 2016 – September 2020</i><br>
+                    <ul>Serve as the day-to-day operations manager of a 100,000 sq./ft. Recreation Center and lead a team of 7 full-time Parks and Recreation professionals.  Create and implement facility policies and procedures, facility budget preparation and monitoring, all data tracking for the facility, development of capital replacement and scholarship plans, coordination of a variety of recreational programs and services, and hiring, training and supervision of all facility staff.</ul>
+                    <b>Facility Grand Opening</b>
+                    <ul>
+                        <li>Responsible for Grand Opening of facility that included a highly successful Charter Membership drive with acquisition of over 2,000 members on a goal of 900.  In addition, planned and executed an open house event to acclimate users to the new facility.</li>
+                    </ul>
+                    <b>Business Data Tracking</b>
+                    <ul>
+                        <li>Developed tracking mechanism for all business data using Microsoft PowerBI.  Tracking document consists of multiple power queries and pivot tables to help determine key metrics in a timely fashion.</li>
+                    </ul>
+                    <b>Team Development</b>
+                    <ul>
+                        <li>Hired a team 7 full-time employees and 100+ part-time employees.  Development of a ‘fun’ culture and excellent customer service skills.</li>
+                    </ul>
+                    <b>Cross Functional Collaboration</b>
+                    <ul>
+                        <li>Work with a variety of City departments to achieve successful project results; primarily Human Resources, Finance, and Communications.  Projects include:  </li>
+                        <ul>
+                            <li>On-boarding of 80+ team members and improvement of hiring/payroll processes.</li>
+                            <li>Rec Center Pro Forma and ultimate budget creation.</li>
+                            <li>Strategic plan around Rec Center social media, website design, and general marketing materials.</li>
+                        </ul>
+                    </ul>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td></td>   
+                <td colspan="3"><b>Power Wellness – Mercy Fitness Center:  February 2014 – November 2015</b><br>
+                    <ul><i>Member Services Supervisor:  February 2014 – November 2015</i><br>
+                    <ul>Responsible for managing the fitness center business operations by providing support functions in the areas of daily cash reconciliation, record keeping, accounting, accounts receivable and payables, purchases, maintaining the center’s membership accounts and overseeing center level payroll (ADP eTime).  Provide leadership and evaluation for membership sales and facility operations teams.  </ul>
+                    <b>Membership Sales</b>
+                    <ul>
+                        <li>Drive marketing and sales plan to achieve monthly and annual membership sales goals.  Lead the sales team associates to ensure prospective members receive education regarding services and facilities and to achieve sales targets.  Provide member acquisition & attrition reporting to center leadership and sales team weekly. </li>
+                    </ul>
+                    <b>Human Resources</b>
+                    <ul>
+                        <li>Serve as fitness center Human Resources representative; responsible for management of online career center (ADP Recruiting Management).  Oversee the coordination and processing of all prospective employee job applications and the completion of all hiring, active employee and termination paperwork.  Plan and conduct new employee orientation to foster a positive attitude toward companies’ core values and beliefs.  Administer benefit program at the center level.</li>
+                    </ul>
+                    <b>Marketing / Social Media</b>
+                    <ul>
+                        <li>Liaison between Power Wellness and client (Mercy).  Responsible for all contact between center and members.  Generate monthly e-mail newsletter.</li>
+                    </ul>
+                    <b>Compete System Administrator</b>
+                    <ul>
+                        <li>Serve as core business software (Compete) resource.  Liaison between Power Wellness I.T. department and center.</li>
+                    </ul>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td></td>   
+                <td colspan="3"><b>City of Oklahoma City Parks & Recreation:  September 2013 – February 2014</b><br>
+                    <ul><i>Community Center Supervisor:  September 2013 – February 2014</i><br>
+                        <ul>Serve as the day-to-day operations Manager of a neighborhood Community Center. Other duties include:  hiring, development, and supervision of 4 community center staff, program development, implementation, and management, establishing partnerships with various civic groups and outside organizations, and community center financial management.</ul>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td></td>   
+                <td colspan="3"><b>	City of Harrisonville Parks & Recreation:  August 2010 – August 2013</b><br>
+                    <ul><i>Recreation Services Manager:  March 2013 – August 2013</i><br>
+                    <ul>Serve as the day-to-day operations manager of a 68,000 sq./ft. Community Center and lead a team of 5 full-time professionals and over 100 part-time year round and seasonal employees.  Other duties include:  department wide marketing, software administration, front desk & fitness team staffing and supervision, membership acquisition and retention, budget preparation and monitoring, data tracking for the department.</ul>
+                    <b>Community Center Business</b>
+                    <ul>
+                        <li>Responsible for streamlining Accounts Receivables & Payables to assist department in being more efficient.  Created multiple tracking devices, using Excel Pivot Tables for department financials, utilities, memberships, and budgeting.  Partnered with Healthways to offer a highly successful Silver Sneakers fitness & membership program - 292 new members the first month.</li>
+                    </ul>
+                    <b>Fitness & Wellness</b>
+                    <ul>
+                        <li>Responsible for substantial growth of Personal Training & Group Exercise classes.  Created a stream lined Group Exercise program to include one schedule for land and aquatic classes as well as consistent session dates.  Completed an overhaul of Personal Training program.  Project lead for creation of Pure Energy Personal Training studio.  Created Youth fitness opportunities to include equipment orientations, personal training packages, and a class for home schooled youth.</li>
+                    </ul>
+                    <b>Marketing / Social Media</b>
+                    <ul>
+                        <li>Liaison between department and city’s Public Information Officer.  Implementation of HPR INSIDER, department e-mail newsletter.  Implementation and growth of social media outlets - Facebook, Twitter, Google+ & YouTube.  Responsible for department wide websites.  </li>
+                    </ul>
+                    <b>RecTrac System Administrator</b>
+                    <ul>
+                        <li>Trained on all aspects of computer software, RecTrac; department contact for RecTrac troubleshooting.  Responsible for completing major upgrade of software, plus multiple release level upgrades.
+                        </li>
+                    </ul>
+                    </ul>
+                    <ul><i>Business & Fitness Services Manager:  August 2010 - February 2013</i><br>
+                    <ul>Responsible for managing the community center business operations by providing support functions in the areas of financial reporting, record keeping, accounting, accounts receivable and payables, purchases, and department wide payroll.  Direct supervisor of Front Desk staff and operations.  Responsible for addressing all member inquires and concerns pertaining to memberships and accounts.  Responsible for obtaining department sponsorships.  Direct supervision of Fitness & Wellness department staff and operations.  Creation of two part-time positions to assist department with expanded program and membership options.</ul>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td></td>   
+                <td colspan="3"><b>City of Des Peres Parks & Recreation:  May 2005 - July 2010</b><br>
+                    <ul><i>Recreation Supervisor - Facilities:  December 2009 - July 2010</i><br>
+                    <ul>Responsible for department rentals; daily reports and tasks regarding group exercise classes, membership accounts, and settling daily accounting transactions; supervise all contractual fitness and sports programming and responsible for department wide website.</ul>
+                    <b>CLASS System Administrator</b>
+                    <ul>
+                        <li>Knowledge of all aspects of CLASS, primary contact for CLASS troubleshooting.</li>
+                    </ul>
+                    </ul>
+                    <ul><i>Fitness Supervisor:  August 2008 - December 2009</i><br>
+                    <ul>Responsible for management of all staff and operations within the Fitness & Wellness Department including:  management of both the Personal Training and Group Exercise Teams, marketing of all fitness programs, goal setting for personal training sales, and implementation of new personal training software - EZ Facility.  Also responsible for department wide budget, management of Fitness Center equipment, supervision of Preventative Maintenance Tech, department payroll, and coordinating staff meetings and in-services.  Program supervisor of 5k Des Peres Dash, “Super Saturday”, bi-annual fitness challenges, & STLAC</ul>
+                    </ul>
+                    <ul><i>Recreation Specialist - Fitness/Marketing:  January 2006 - August 2008</i><br>
+                    <ul>Responsible for all marketing of Parks and Recreation Department, Coordinator of Department Website, Direct supervision of Fitness Desk Associates, and Program Supervisor of Annual Health Fair & Fitness Fun Camp.</ul>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <tr class="bg-primary">
+                <th scope="col" colspan="4">EDUCATION</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <td></td>   
+            <td colspan="3"><b>University of Missouri - Columbia:  August 2001 - August 2005</b><br>
+                <ul>
+                    <li>Bachelor of Science in Parks, Recreation & Tourism; Minor in Business</li>
+                    <li>Dual Emphasis in Leisure Services Management and Travel & Tourism</li>
+                </ul>
+            </td>
+        </tbody>
+        <tbody>
+            <td></td>   
+            <td colspan="3"><b>University of Kansas:  October 2020 - April 2021</b><br>
+                <ul>
+                    <li>Certificate of Data Analytics</li>
+                    <li>Completion of a six-month data analytics bootcamp. Subjects covered: Intermediate Excel, Python, JavaScript (D3.js, Leaflet.js), HTML5/CSS, API Interactions, SQL, Tableau, Fundamental Statistics, Machine Learning, R, Git/GitHub, and more.</li>
+                </ul>
+            </td>
+        </tbody>
+
+        <thead>
+            <tr class="bg-primary">
+                <th scope="col" colspan="4">PROFESSIONAL DEVELOPMENT</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <td></td>   
+            <td colspan="3"><b>Certified Parks & Recreation Professional (CPRP)</b><br>
+                <ul>
+                    <li>Certification achieved September 2012 and remains current.</li>
+                </ul>
+            </td>
+        </tbody>
+        <tbody>
+            <td></td>   
+            <td colspan="3">
+                <b>Aquatic Facility Operator: March 2019 – Present</b>
+            </td>
+        </tbody>
+        <tbody>
+            <td></td>   
+            <td colspan="3">
+                <b>MPRA Leadership Development Institute:  October 2010</b>
+            </td>
+        </tbody>
+        <tbody>
+            <td></td>   
+            <td colspan="3">
+                <b>RecTrac System Administrator: 20 Hour Advanced Training Course</b>
+            </td>
+        </tbody>
+        <tbody>
+            <td></td>   
+            <td colspan="3">
+                <b>MPRA:  Fitness Section Secretary/Treasurer (2012-2013, 2013-2014) </b>
+            </td>
+        </tbody>
+        <tbody>
+            <td></td>   
+            <td colspan="3">
+                <b>CPR, First Aid, AED certification:  September 2001 – Present</b>
+            </td>
+        </tbody>
+        <tbody>
+            <td></td>   
+            <td colspan="3">
+                <b>ACPR Instructor: 2014-2015</b>
+            </td>
+        </tbody>
+        <tbody>
+            <td></td>   
+            <td colspan="3">
+                <b>Leadership Intensive executive leadership development program: 2019-2020</b>
+            </td>
+        </tbody>
+    </table>
+
+</body>
+
+<footer class="footer mt-auto py-3 bg-secondary">
+    <div style="text-align: right; width: 1450px; padding-right: 40px;">
+        <span style="color: white">Designed by: 
+            <a target=new style="color: white" href="https://www.linkedin.com/in/john-forbis-cprp-96921513/"><u>J. Forbis (LinkedIn)</u>     </a>|     Updated: May 2021
+        </span>
+    </div>
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="{{ url_for('static',filename='js/logic.js') }}"></script>
