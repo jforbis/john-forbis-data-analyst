@@ -1,22 +1,22 @@
 /* Styling for HTML elements */
 body {
-padding: 0;
-margin: 0;
-font-family: Georgia, "Times New Roman", Times, serif;
-font-size: 18px;
-line-height: 150%;
-color: rgb(255, 255, 255);
-background: #afaaaa;
-max-width: 1450px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgb(255, 255, 255);
+    background: #afaaaa;
+    width: 100%;
+    height: 100%;
 }
 
 #uc {
-    width: 1000px;
+    width: 100%;
 }
 
 #uc-body {
-    height: 690px;
-    width: 1450px;
+    height: 100%;
+    width: 100%;
     margin: auto 0;
 }
 
@@ -29,20 +29,20 @@ max-width: 1450px;
 }
 
 #uc-btn {
-    width: 1450px
+    width: 100%;
 }
 
 .container {
-    width: 1400px;
+    width: 100%;
 }
 
 .row {
-    width: 1450px;
+    width: 100%;
     margin: auto 0;
 }
 
 .col {
-    width: 1450px;
+    width: 100%;
 }
 
 .vert1 {
@@ -107,12 +107,13 @@ background-color: white
 }
 
 .card {
-color: #9f9b9b;
-font-size: 14px;
-margin-left: 40px;
-margin-top: top;
-border-color: #9f9b9b;
-vertical-align: text-top
+    color: #9f9b9b;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: top;
+    border-color: #9f9b9b;
+    vertical-align: text-top;
+    height: 604px;
 }
 
 .card-body {
@@ -171,16 +172,11 @@ vertical-align: text-top
 #whoiam {
     text-align: center;
     color: #70A6E4;
-    font-size: 16px
+    font-size: 13px;
 }
 .second_card {
 margin-top: -140px;
 margin-left: 40px
-}
-
-.card-img-top {
-width: 50%;
-height: auto;
 }
 
 .card-title {
@@ -199,27 +195,13 @@ h5.career-title {
     text-align: center;
 }
 
-.top_row {
-position: sticky;
-top: 0;
-background-color: #353A3F;
-}
-
 .navbar-expand-lg navbar-light bg-light nav-color navbar nav {
 position: sticky;
 top: 0;
 }
 
 * {
-box-sizing: border-box;
-font-family: Ubuntu, sans-serif;
-}
-
-html,
-body {
-height: 100%;
-padding: 0;
-margin: 0;
+font-family: Verdana;
 }
 
 /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
@@ -238,13 +220,13 @@ overflow: auto;
     height: 50px;
     margin-top: 25px;
     background: #70A6E4;
-    width: 1450px;
+    width: 100%;
 }
 
 .navbar {
 padding: 5px;
 margin: 0;
-width: 1450px;
+width: 100%;
 }
 
 /* This CSS styles the photo in the navbar */
@@ -275,14 +257,6 @@ border-radius: 50%!important;
     max-height: 100px;
     margin-left: auto;
     margin-right: auto;
-    /* position: relative;
-    background-color: #FFFFFF;
-    color: black;
-    width: 250px;
-    height: 250px;
-    padding: 20px;
-    display: inline-block;
-    vertical-align: middle */
 }
 
 
@@ -293,62 +267,25 @@ border-radius: 50%!important;
     color: white;
 }
 
-/* Adding styles to the aside and filter form */
-.ufo-form {
-margin-top: 50px;
-}
-
-.filters .panel-body {
-padding: 0;
-}
-
-.filters {
-margin-top: 10px;
-}
-
-select {
-display: block;
-width: 100%;
-padding: 8px;
-color: #8e979f;
-outline: none;
-}
-
-#table-area th {
-text-align: center;
-}
-
-#table-area th:first-child,
-#table-area th:nth-child(2),
-#table-area th:nth-child(6) {
-min-width: 70px;
-}
-
-.loader {
-margin-top: 50px;
-}
-
-.margin-top-50 {
-margin-top: 50px;
-}
-
 /* The styles for the parallax */
 .hero {
-position: relative;
-height: 750px;
-padding: 10px;
-margin: 0;
-background-image: url("/static/resources/images/IMG_1779.jpeg");
-background-attachment: fixed;
-background-position: bottom center;
-background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 650px;
+    padding: 10px;
+    margin: 0;
+    background-image: url("/static/resources/images/IMG_1779.jpeg");
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
 }
 
 .hero h1 {
     margin-top: 200px;
-    font-size: 0.1rem;
+    font-size: 80px;
     animation: title 1.2s forwards linear;
     -webkit-text-stroke: 2px black;
+    animation: smaller-title 1.2s forwards linear;
 }
 
 .hero p {
@@ -358,108 +295,35 @@ animation: subtitle 1.2s forwards linear;
 animation-delay: 1.2s;
 }
 
-/* input placeholder color changes */
-/* .form-control::-webkit-input-placeholder {
-/* Chrome/Opera/Safari */
-/* color: #8e979f; */
-/* } */ */
-
-/* .form-control::-moz-placeholder { */
-/* Firefox 19+ */
-/* color: #8e979f; */
-/* } */
-
-/* .form-control:-ms-input-placeholder { */
-/* IE 10+ */
-/* color: #8e979f; */
-
-
-/* .form-control:-moz-placeholder { */
-/* Firefox 18- */
-/* color: #8e979f;
-} */
-
-/* media queries which will only be activated at specific screen sizes */
-/* @media (max-width: 800px) {
-#table-area td {
-    font-size: 1em;
-}
-}
-
-@media (max-width: 500px) {
-#table-area thead {
-    display: none;
-} */
-
-#table-area tr td:first-child {
-    font-size: 1.8em;
-    font-weight: bold;
-    background: #1b3146;
-}
-
-#table-area tr td:last-child {
-    margin-bottom: 20px;
-}
-
-#table-area tr td:last-child::after {
-    display: block;
-    width: 100%;
-    height: 1px;
-    margin-top: 20px;
-    content: " ";
-    background: aliceblue;
-}
-
-#table-area td {
-    font-size: 1.25em;
-}
-
-#table-area tbody td {
-    display: block;
-    text-align: center;
-}
-
-#table-area tbody td::before {
-    display: block;
-    font-size: 1.4em;
-    font-weight: bold;
-    text-align: center;
-    content: attr(data-th);
-}
-
-.hero h1 {
-    animation: smaller-title 1.2s forwards linear;
-}
-
 /* keyframe animations which will be used to animate the title */
 @keyframes title {
-from {
-    opacity: 0;
-}
+    from {
+        opacity: 0;
+    }
 
-to {
-    font-size: 7.5rem;
-    opacity: 1;
-}
+    to {
+        font-size: 7.5rem;
+        opacity: 1;
+    }
 }
 
 @keyframes smaller-title {
-from {
-    opacity: 0;
-}
+    from {
+        opacity: 0;
+    }
 
-to {
-    font-size: 5.5rem;
-    opacity: 1;
-}
+    to {
+        font-size: 5.5rem;
+        opacity: 1;
+    }
 }
 
 @keyframes subtitle {
-from {
-    opacity: 0;
-}
+    from {
+        opacity: 0;
+    }
 
-to {
-    opacity: 1;
-}
+    to {
+        opacity: 1;
+    }
 }
