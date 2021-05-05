@@ -300,6 +300,14 @@ animation: subtitle 1.2s forwards linear;
 animation-delay: 1.2s;
 }
 
+.jobtitle {
+    color: rgb(44,126,246);
+}
+
+.college-logo {
+    max-width: 50px;
+}
+
 /* keyframe animations which will be used to animate the title */
 @keyframes title {
     from {
